@@ -1,0 +1,182 @@
+[
+  {
+    "id": "doc1",
+    "question": "Как создать новый проект в AnyLogic?",
+    "answer": "File → New → Выберите тип модели (Agent-Based, System Dynamics, Discrete Event) → Укажите название и расположение.",
+    "metadata": {
+      "category": "basic",
+      "tags": "проект"
+    }
+  },
+  {
+    "id": "doc2",
+    "question": "Как добавить анимацию для агента?",
+    "answer": "Перетащите элемент из раздела Animation (Rectangle, Circle) на агента в графическом редакторе.",
+    "metadata": {
+      "category": "animation",
+      "tags": "визуализация"
+    }
+  },
+  {
+    "id": "doc3",
+    "question": "Как импортировать данные из Excel?",
+    "answer": "Используйте элемент Database → Настройте подключение через JDBC или класс ExcelFile.",
+    "metadata": {
+      "category": "data",
+      "tags": "импорт"
+    }
+  },
+  {
+    "id": "doc4",
+    "question": "Как настроить скорость анимации?",
+    "answer": "Параметр Speed в свойствах модели (1 сек = 1 час моделирования).",
+    "metadata": {
+      "category": "animation",
+      "tags": "визуализация"
+    }
+  },
+  {
+    "id": "doc5",
+    "question": "Как создать пользовательское событие?",
+    "answer": "Добавьте Event в Statechart или используйте класс Event из библиотеки.",
+    "metadata": {
+      "category": "events",
+      "tags": "событие"
+    }
+  },
+  {
+    "id": "doc6",
+    "question": "Как экспортировать результаты в CSV?",
+    "answer": "Используйте класс File или ExcelFile для записи данных в цикле симуляции.",
+    "metadata": {
+      "category": "data",
+      "tags": "экспорт"
+    }
+  },
+  {
+    "id": "doc7",
+    "question": "Как отладить модель?",
+    "answer": "Используйте Breakpoints, Log и пошаговое выполнение (Step Into/Over).",
+    "metadata": {
+      "category": "debugging",
+      "tags": "отладка"
+    }
+  },
+  {
+    "id": "doc8",
+    "question": "Как создать диалоговое окно для параметров?",
+    "answer": "Используйте Presentation → Control Panel с элементами ввода.",
+    "metadata": {
+      "category": "ui",
+      "tags": "интерфейс"
+    }
+  },
+  {
+    "id": "doc9",
+    "question": "Как смоделировать логистическую систему?",
+    "answer": "Используйте Road Traffic Library + Process Modeling Library для цепочек поставок.",
+    "metadata": {
+      "category": "logistics",
+      "tags": "логистика"
+    }
+  },
+  {
+    "id": "doc10",
+    "question": "Как оптимизировать параметры модели?",
+    "answer": "Создайте Optimization Experiment и задайте целевую функцию в OptQuest.",
+    "metadata": {
+      "category": "optimization",
+      "tags": "оптимизация"
+    }
+  },
+  {
+    "id": "doc11",
+    "question": "Как добавить 3D-анимацию?",
+    "answer": "Используйте элементы из палитры 3D Objects и настройте материалы/текстуры.",
+    "metadata": {
+      "category": "3d",
+      "tags": "анимация"
+    }
+  },
+  {
+    "id": "doc12",
+    "question": "Как работать c GIS-картами?",
+    "answer": "Добавьте элемент GIS Map → Загрузите карту → Привяжите координаты к агентам.",
+    "metadata": {
+      "category": "gis",
+      "tags": "геоданные"
+    }
+  },
+  {
+    "id": "doc13",
+    "question": "Как создать кастомную библиотеку?",
+    "answer": "File → New → Library → Добавьте компоненты и экспортируйте как .alx.",
+    "metadata": {
+      "category": "development",
+      "tags": "библиотека"
+    }
+  },
+  {
+    "id": "doc14",
+    "question": "Как интегрировать Python-код?",
+    "answer": "Используйте Jython для вызова Python-скриптов из Java-кода модели.",
+    "metadata": {
+      "category": "integration",
+      "tags": "интеграция"
+    }
+  },
+  {
+    "id": "doc15",
+    "question": "Как смоделировать пешеходов?",
+    "answer": "Используйте Pedestrian Library c элементами Walkway, Service и Wait.",
+    "metadata": {
+      "category": "pedestrian",
+      "tags": "пешеходы"
+    }
+  },
+  {
+    "id": "doc16",
+    "question": "Как настроить горячие клавиши?",
+    "answer": "В свойствах элементов укажите сочетание клавиш в поле Shortcut Key.",
+    "metadata": {
+      "category": "ui",
+      "tags": "клавиши"
+    }
+  },
+  {
+    "id": "doc17",
+    "question": "Как добавить звуковые эффекты?",
+    "answer": "Используйте элемент Sound из палитры Presentation.",
+    "metadata": {
+      "category": "multimedia",
+      "tags": "звук"
+    }
+  },
+  {
+    "id": "doc18",
+    "question": "Как создать анимацию конвейера?",
+    "answer": "Добавьте Conveyor → Настройте скорость и точки входа/выхода → Добавьте анимацию грузов.",
+    "metadata": {
+      "category": "animation",
+      "tags": "конвейер"
+    }
+  },
+  {
+    "id": "doc19",
+    "question": "Как использовать параметры из базы данных?",
+    "answer": "Подключите Database → Создайте SQL-запрос → Привяжите результат к параметрам модели.",
+    "metadata": {
+      "category": "data",
+      "tags": "база данных"
+    }
+  },
+  {
+    "id": "doc20",
+    "question": "Как визуализировать статистику в реальном времени?",
+    "answer": "Используйте элементы Time Plot, Histogram или Pie Chart из палитры Analysis.",
+    "metadata": {
+      "category": "visualization",
+      "tags": "статистика"
+    }
+  }
+]
